@@ -1,0 +1,43 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "email-validator": "^2.0.4",
+    "expo": "~43.0.0",
+    "expo-status-bar": "~1.1.0",
+    "firebase": "^7.0.0",
+    "formik": "^2.2.9",
+    "jest-haste-map": "^27.4.2",
+    "js-yaml": "^4.1.0",
+    "jsesc": "^3.0.2",
+    "json5": "^2.2.0",
+    "module_name": "^1.0.0",
+    "nanoid": "^3.1.30",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-web": "0.17.1",
+    "react-native-webview": "^11.15.0",
+    "regjsparser": "^0.8.0",
+    "valid-url": "^1.0.9",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "metro-config": "^0.66.2"
+  },
+  "private": true
+}
